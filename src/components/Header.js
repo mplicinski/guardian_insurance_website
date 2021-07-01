@@ -8,11 +8,12 @@ const Header = () => {
       <div className="main-info">
         <h1>Welcome to the Guardian Agency</h1>
         <h2>Learn how we can help guard what's most valuable to you</h2>
-        <a href="#" className="btn-learn-more">
+        <a href="#lower" className="btn-learn-more">
           {" "}
           Learn more
         </a>
       </div>
+      <div id="lower"></div>
     </div>
   );
 };
